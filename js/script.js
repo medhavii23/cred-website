@@ -1,4 +1,5 @@
 var slideindex=0;
+console.log("inside script");
 showfunction();
 
 function showfunction()
@@ -15,5 +16,5 @@ function showfunction()
         slideindex=1;
     }
     slides[slideindex-1].style.display="block";
-    setTimeout(showSlides,2500);
+    setTimeout(showfunction,2500);
 }
